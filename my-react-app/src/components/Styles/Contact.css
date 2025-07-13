@@ -1,0 +1,110 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 60px 0;
+  min-height: 70vh;
+  background: none;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 350px;
+  color: #8f88ff;
+  margin-top: 40px;
+}
+
+.contact-info h2 {
+  color: #8f88ff;
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.contact-details div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+  font-size: 1.1rem;
+  color: #bdbde6;
+}
+
+.contact-details span[role="img"] {
+  font-size: 1.5rem;
+}
+
+/* Texte des infos de contact en mode clair */
+.contact-details span {
+  color: #232323; /* noir ou gris très foncé */
+}
+
+/* Texte des infos de contact en mode sombre */
+body.dark-mode .contact-details span {
+  color: #fff; /* blanc */
+}
+
+.contact-form {
+  flex: 2;
+  background: #23244d;
+  padding: 36px 32px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60,56,99,0.10);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 340px;
+  max-width: 480px;
+}
+
+.contact-form label {
+  color: #bdbde6;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #8f88ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #181a2a;
+  color: #e0e0e0;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 18px;
+  padding: 12px;
+  background: linear-gradient(90deg, #8f88ff 0%, #7c7be6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #7c7be6 0%, #8f88ff 100%);
+}
+
+@media (max-width: 900px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0;
+  }
+  .contact-info {
+    margin-top: 0;
+    text-align: center;
+  }
+  .contact-form {
+    min-width: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+}

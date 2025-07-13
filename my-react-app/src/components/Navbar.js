@@ -4,16 +4,19 @@
 import React from 'react';
 import './Styles/Navbar.css';
 import ThemeToggle from './ThemeToggle';
+import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-title">Mon Portfolio</div>
       <ul className="navbar-links">
-        <li><a href="#accueil">Accueil</a></li>
+        <li><Link to="/">Accueil</Link></li>
         <li><a href="#apropos">À propos</a></li>
         <li><a href="#projets">Projets</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/certificats">Certificats</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
       <div className="navbar-icon">
         {/* Exemple d’icône engrenage en SVG */}
