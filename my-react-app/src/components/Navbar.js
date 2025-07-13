@@ -3,6 +3,7 @@
 
 import React from 'react';
 import './Styles/Navbar.css';
+import ThemeToggle from './ThemeToggle';
 
 function Navbar() {
   return (
@@ -20,6 +21,9 @@ function Navbar() {
           <circle cx="12" cy="12" r="10" stroke="#6c63ff" strokeWidth="2" fill="#FFD600"/>
           <path d="M12 8v4l3 2" stroke="#22223b" strokeWidth="2" strokeLinecap="round"/>
         </svg>
+      </div>
+      <div className="navbar-right">
+        <ThemeToggle />
       </div>
     </nav>
   );

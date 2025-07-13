@@ -1,0 +1,72 @@
+.accueil-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70vh;
+  padding: 40px 8vw;
+  background: linear-gradient(120deg, #23244d 0%, #3a3b6d 100%);
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.accueil-content {
+  max-width: 50%;
+}
+
+.accueil-nom {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8f88ff;
+  margin-bottom: 0.5rem;
+}
+
+.accueil-titre {
+  font-size: 2rem;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+.accueil-description {
+  font-size: 1.2rem;
+  color: #c7c7e6;
+  line-height: 1.7;
+}
+
+.accueil-avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.accueil-avatar-bg {
+  background: radial-gradient(circle at 60% 40%, #8f88ff 0%, #3a3b6d 100%);
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 900px) {
+  .accueil-section {
+    flex-direction: column;
+    padding: 32px 4vw;
+    min-height: 60vh;
+    text-align: center;
+  }
+  .accueil-content {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+  .accueil-avatar-bg {
+    width: 180px;
+    height: 180px;
+  }
+}
+.accueil-avatar-img {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  border: 4px solid #fff;
+}

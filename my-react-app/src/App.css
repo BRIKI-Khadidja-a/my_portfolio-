@@ -44,3 +44,57 @@
   justify-content: center;
   background: rgba(60, 56, 99, 0.1);
 }
+
+/* Thème clair (par défaut) */
+body {
+  background-color: #f8f9fb;
+  color: #23244d;
+}
+
+.navbar {
+  background-color: #f5f7fa;
+  color: #23244d;
+}
+
+.accueil-section {
+  background: linear-gradient(120deg, #f8f9fb 0%, #e6e8fa 100%);
+}
+
+.accueil-nom {
+  color: #7c7be6;
+}
+
+.accueil-titre {
+  color: #23244d;
+}
+
+.accueil-description {
+  color: #5a5a7a;
+}
+
+/* Thème sombre */
+body.dark-mode {
+  background-color: #181a2a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+  background-color: #181a2a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .accueil-section {
+  background: linear-gradient(120deg, #181a2a 0%, #23244d 100%);
+}
+
+body.dark-mode .accueil-nom {
+  color: #8f88ff;
+}
+
+body.dark-mode .accueil-titre {
+  color: #e0e0e0;
+}
+
+body.dark-mode .accueil-description {
+  color: #bdbde6;
+}
