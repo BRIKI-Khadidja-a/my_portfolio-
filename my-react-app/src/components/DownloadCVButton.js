@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadCVButton = () => {
   return (
     <a
-      href="/cv.pdf"
+      href="/cv(1).pdf"
       download
       className="download-cv-btn"
       style={{
