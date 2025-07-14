@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Mon Portfolio – BRIKI Khadidja
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur le dépôt de mon portfolio personnel développé avec **React.js**.
 
-## Available Scripts
+## ✨ Aperçu
 
-In the project directory, you can run:
+Ce site présente mon parcours, mes compétences, mes projets, mes certificats et permet de me contacter facilement.  
+Il est responsive, moderne, et propose un mode clair/sombre.
 
-### `npm start`
+**Lien en ligne :** [Voir le portfolio](https://my-portfolio-suul.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Fonctionnalités
 
-### `npm test`
+- Page d’accueil avec présentation et photo
+- Navigation fluide entre les sections (Accueil, À propos, Projets, Certificats, Contact)
+- Formulaire de contact fonctionnel
+- Mode clair / sombre
+- Responsive design (adapté mobile/tablette/desktop)
+- Déploiement continu sur Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Technologies utilisées
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React.js](https://reactjs.org/)
+- [React Router](https://reactrouter.com/) (navigation)
+- [CSS3](https://developer.mozilla.org/fr/docs/Web/CSS) (styles personnalisés)
+- [Vercel](https://vercel.com/) (hébergement et CI/CD)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation et utilisation locale
 
-### `npm run eject`
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/ton-utilisateur/nom-du-repo.git
+   cd nom-du-repo/my-react-app
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Lancer le serveur de développement**
+   ```bash
+   npm start
+   ```
+   Le site sera accessible sur [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🖼️ Personnalisation
 
-## Learn More
+- **Photo de profil** : remplace le fichier dans `public/ma_photo.jpg` par ta propre image.
+- **Informations de contact** : modifie le composant `Contact.js`.
+- **Certificats et projets** : ajoute/modifie les données dans les composants correspondants.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📤 Déploiement
 
-### Code Splitting
+Le projet est déployé automatiquement sur [Vercel](https://vercel.com/).  
+Pour déployer une nouvelle version, il suffit de pousser sur la branche `main` (ou la branche connectée à Vercel).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pour toute question ou collaboration, n’hésite pas à me contacter via le formulaire du site ou par email :  
+**brikiamina3@gmail.com**
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 Licence
 
-### Advanced Configuration
+Ce projet est open-source et libre d’utilisation pour inspiration ou usage personnel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

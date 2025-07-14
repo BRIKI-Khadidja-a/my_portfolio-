@@ -1,0 +1,89 @@
+.apropos-section {
+  width: 100%;
+  padding: 48px 0 0 0;
+}
+
+.apropos-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apropos-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 320px;
+}
+
+.apropos-title {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 24px;
+  color: #8f88ff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.apropos-content p {
+  color: #e0e0e0;
+  margin-bottom: 18px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.download-cv-btn {
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .apropos-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .apropos-content {
+    align-items: center;
+    text-align: center;
+  }
+  .apropos-title {
+    text-align: center;
+  }
+}
+
+.education-block {
+  background: none;
+  margin: 36px auto 0 auto;
+  padding: 0;
+  max-width: 900px;
+  text-align: left;
+}
+
+.education-title {
+  color: #e5734a;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.education-desc {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+body.dark-mode .education-desc {
+  color: #fff;
+}
+
+/* Texte en mode clair */
+body:not(.dark-mode) .apropos-content p {
+  color: #232323;
+}
+body:not(.dark-mode) .education-desc {
+  color: #232323;
+} 

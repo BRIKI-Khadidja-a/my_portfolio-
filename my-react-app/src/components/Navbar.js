@@ -13,7 +13,7 @@ function Navbar() {
       <div className="navbar-title">Mon Portfolio</div>
       <ul className="navbar-links">
         <li><Link to="/">Accueil</Link></li>
-        <li><a href="#apropos">À propos</a></li>
+        <li><Link to="/apropos">À propos</Link></li>
         <li><a href="#projets">Projets</a></li>
         <li><Link to="/certificats">Certificats</Link></li>
         <li><Link to="/contact">Contact</Link></li>

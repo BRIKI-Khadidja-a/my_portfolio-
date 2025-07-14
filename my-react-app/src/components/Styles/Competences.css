@@ -1,0 +1,68 @@
+.competences-block {
+  background: #2d2960;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(60,56,99,0.10);
+  padding: 28px 24px;
+  max-width: 320px;
+  margin-left: 40px;
+  margin-top: 24px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.competences-block h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.competences-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.competence-badge {
+  background: linear-gradient(90deg, #8f88ff 0%, #7c7be6 100%);
+  color: #fff;
+  border-radius: 16px;
+  padding: 7px 16px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(60,56,99,0.10);
+  margin-bottom: 6px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.competence-badge:hover {
+  background: linear-gradient(90deg, #7c7be6 0%, #8f88ff 100%);
+}
+
+@media (max-width: 900px) {
+  .competences-block {
+    margin: 32px auto 0 auto;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+
+body.dark-mode .competences-block {
+  background: #23244d;
+  color: #e0e0e0;
+}
+
+body.dark-mode .competences-block h3 {
+  color: #e0e0e0;
+}
+
+/* Texte en mode clair */
+body:not(.dark-mode) .competences-block {
+  color: #232323;
+}
+body:not(.dark-mode) .competence-badge {
+  color: #232323;
+}
