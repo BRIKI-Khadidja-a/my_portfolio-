@@ -52,13 +52,6 @@ Il est responsive, moderne, et propose un mode clair/sombre.
 
 ---
 
-## 🖼️ Personnalisation
-
-- **Photo de profil** : remplace le fichier dans `public/ma_photo.jpg` par ta propre image.
-- **Informations de contact** : modifie le composant `Contact.js`.
-- **Certificats et projets** : ajoute/modifie les données dans les composants correspondants.
-
----
 
 ## 📤 Déploiement
 
