@@ -1,46 +1,42 @@
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #131228;
-  padding: 20px 40px;
-}
-
-.navbar-title {
-  font-size: 2rem;
-  font-weight: bold;
-  background: linear-gradient(90deg, #5ea6fa, #a084ee);
-  -webkit-background-clip: text;
-  background-clip: text;           /* Ajoute cette ligne */
-  -webkit-text-fill-color: transparent;
-  color: transparent;              /* Ajoute cette ligne pour la compatibilité */
-}
-
-.navbar-links {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-links a {
+  background: #222;
   color: #fff;
+  padding: 10px;
+}
+
+.desktop-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.desktop-menu a,
+.mobile-menu a {
+  color: #fff;
+  font-size: 1.2rem;
   text-decoration: none;
-  font-size: 1.1rem;
   transition: color 0.2s;
 }
 
-.navbar-links a:hover {
+.desktop-menu a:hover,
+.mobile-menu a:hover {
   color: #a084ee;
 }
 
-.navbar-icon {
-  border: 1px solid #39386b;
-  border-radius: 50%;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(60, 56, 99, 0.1);
+.mobile-navbar .hamburger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.mobile-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+.mobile-menu li {
+  padding: 10px 0;
 }

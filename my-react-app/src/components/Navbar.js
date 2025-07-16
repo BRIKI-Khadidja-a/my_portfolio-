@@ -1,35 +1,14 @@
 //La barre de navigation en haut.
 
 
-import React from 'react';
-import './Styles/Navbar.css';
-import ThemeToggle from './ThemeToggle';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import useWindowWidth from "../hooks/useWindowWidth";
+import MobileNavbar from "./MobileNavbar";
+import DesktopNavbar from "./DesktopNavbar";
 
 function Navbar() {
-  return (
-    <nav className="navbar">
-      <div className="navbar-title">Mon Portfolio</div>
-      <ul className="navbar-links">
-        <li><Link to="/">Accueil</Link></li>
-        <li><Link to="/apropos">À propos</Link></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><Link to="/certificats">Certificats</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
-      <div className="navbar-icon">
-        {/* Exemple d’icône engrenage en SVG */}
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="10" stroke="#6c63ff" strokeWidth="2" fill="#FFD600"/>
-          <path d="M12 8v4l3 2" stroke="#22223b" strokeWidth="2" strokeLinecap="round"/>
-        </svg>
-      </div>
-      <div className="navbar-right">
-        <ThemeToggle />
-      </div>
-    </nav>
-  );
+  const width = useWindowWidth();
+  return width < 800 ? <MobileNavbar /> : <DesktopNavbar />;
 }
 
 export default Navbar;
